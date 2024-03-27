@@ -13,6 +13,6 @@ jobs:
       - uses: youjuice/activity-box@main
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           GH_USERNAME: youjuice
           GIST_ID: b29bec193e23363f4859c9aa3b47adc0
